@@ -54,3 +54,17 @@ with urlopen('https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&qv
     # print(dust_cc)
 
 #추정훈 크롤러 코딩
+
+    dust_am=[]
+    for i in range(len(dust_td)):
+        if i%3==1:
+            dust_am.append(dust_td[i])
+    # print(dust_am)
+
+
+    dust_pm = []
+    for i in range(len(dust_td)):
+        if i % 3 == 2:
+            dust_pm.append(dust_td[i])
+    # print(dust_pm)
+ # 이은희 크롤러 코딩
