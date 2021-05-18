@@ -81,3 +81,10 @@ with urlopen('https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&qv
     plt.show()
     # 추정훈 그래프 코딩
 
+    name=input("지역을 검색하시오 : ")
+
+    index=dust_name.index(name)
+    # print(index)
+    print("오전예보 :",dust_am[index])
+    print("오후예보 :",dust_pm[index])
+#이은희 그래프 코딩
