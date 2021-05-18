@@ -69,14 +69,15 @@ with urlopen('https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&qv
     # print(dust_pm)
  # 이은희 크롤러 코딩
 
-        x = []
-        for i in range(1, 18):
-            x.append(i)
-        plt.rcParams['font.family'] = 'Malgun Gothic'
-        plt.bar(x, dust_cc)
-        plt.xticks(x, dust_name)
-        plt.xlabel('지역명')
-        plt.ylabel('농도')
-        plt.title("각 지역에 따른 미세먼지 농도")
-        plt.show()
-        # 추정훈 그래프 코딩
+    x = []
+    for i in range(1, 18):
+        x.append(i)
+    plt.rcParams['font.family'] = 'Malgun Gothic'
+    plt.bar(x, dust_cc)
+    plt.xticks(x, dust_name)
+    plt.xlabel('지역명')
+    plt.ylabel('농도')
+    plt.title("각 지역에 따른 미세먼지 농도")
+    plt.show()
+    # 추정훈 그래프 코딩
+
